@@ -1,6 +1,6 @@
 # Week 1: Intro to GPUs and writing your first kernel!
 ![gpu-devotes-more-transistors-to-data-processing](https://github.com/user-attachments/assets/e8d43208-5e89-488a-b097-6978803e7392)
-#### Can you guess which architecture more closely resembles a CPU/GPU?
+#### Can you guess which architecture more closely resembles a CPU? What about a GPU?
 ### Recommended Readings:
 [Motivation for GPUs in Deep Learning](https://horace.io/brrr_intro.html)\
 [A gentle introduction to CUDA](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
