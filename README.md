@@ -5,7 +5,7 @@
 ### Recommended Readings:
 [Motivation for GPUs in Deep Learning](https://horace.io/brrr_intro.html)\
 [A gentle introduction to CUDA](https://developer.nvidia.com/blog/even-easier-introduction-cuda/)
-### Further resources/references to use
+### Further resources/references to use:
 [PMPP Book Access](https://dokumen.pub/qdownload/programming-massively-parallel-processors-a-hands-on-approach-4nbsped-9780323912310.html)\
 [NVIDIA GPU Glossary](https://modal.com/gpu-glossary/device-hardware)
 
@@ -18,3 +18,6 @@
 [Aalto University's Course on GPU Programming](https://ppc.cs.aalto.fi/ch4/)\
 [Simon's Blog on SGEMM (Kernels 1-5 are the most relevant for the assignment)](https://siboehm.com/articles/22/CUDA-MMM])\
 [How to use NCU profiler](https://www.youtube.com/watch?v=04dJ-aePYpE)
+
+### Further references to use:
+[NCU Documentation](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
