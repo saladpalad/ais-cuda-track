@@ -8,3 +8,13 @@
 ### Further resources/references to use
 [PMPP Book Access](https://dokumen.pub/qdownload/programming-massively-parallel-processors-a-hands-on-approach-4nbsped-9780323912310.html)\
 [NVIDIA GPU Glossary](https://modal.com/gpu-glossary/device-hardware)
+
+# Week 2: Learning to optimize your kernels! 
+<img width="757" alt="Screenshot 2025-01-26 at 1 51 35 AM" src="https://github.com/user-attachments/assets/494a758f-cc52-4dc3-8454-63181d3786c8" />
+
+#### From the image, how many FLOPS (floating point operations) are in matrix multiplication?
+
+### Recommended Readings: 
+[Aalto University's Course on GPU Programming](https://ppc.cs.aalto.fi/ch4/)\
+[Simon's Blog on SGEMM (Kernels 1-5 are the most relevant for the assignment)](https://siboehm.com/articles/22/CUDA-MMM])\
+[How to use NCU profiler](https://www.youtube.com/watch?v=04dJ-aePYpE)
