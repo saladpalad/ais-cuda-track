@@ -17,10 +17,10 @@ In addition to GPU programming, one should also become familar with GPU profilin
 Look at Memory Worklord Analysis Section, how high is the Mem Bsy [%] statistic? Also take a look at Compute Worklord Analysis, how low is the SM Busy [%] statistic? What does this tell us about the naive kernel?
 
 ### Kernel 2: Coalescing
-After implementing coalescing, how much did compute (SM) throughput improve by compared to naive?\
+After implementing coalescing, how much did compute (SM) throughput improve by compared to naive?
 
 ### Kernel 3: Register Reuse
-How many more registers per thread were used compared to the previous two kernels?\
+How many more registers per thread were used compared to the previous two kernels?
 
 ### Kernel 4: Shared memory
 How much shared memory per block was allocated? Looking at the Memory Worklord Analysis Section, with all these optimizations in the end how much did memory throughput improve by compared to the naive kernel?
