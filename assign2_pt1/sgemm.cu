@@ -46,16 +46,16 @@ torch::Tensor launch_matmul_v1(torch::Tensor A, torch::Tensor B, torch::Tensor C
 }
 
 torch::Tensor launch_matmul_v2(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL WRAPPER */
+    /* TODO IMPLEMENT THIS KERNEL LAUNCHER */
 }
 
 torch::Tensor launch_matmul_v3(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL WRAPPER */
+    /* TODO IMPLEMENT THIS KERNEL LAUNCHER */
 
 }
 
 torch::Tensor launch_matmul_v4(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL WRAPPER */
+    /* TODO IMPLEMENT THIS KERNEL LAUNCHER */
 
 }
 
