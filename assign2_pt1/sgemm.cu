@@ -29,12 +29,12 @@ __global__ void matmul_v4(float* A, float* B, float* C, const int m, const int n
 }
 
 torch::Tensor launch_matmul_v1(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    const int block_size = // TODO;
-    dim3 blockDim() // TODO;
+    const int block_size = //TODO;
+    dim3 blockDim(// TODO);
 
-    const int grid_size_x = // TODO; // hint: spawn enough blocks to process m dimension
+    const int grid_size_x = //TODO; // hint: spawn enough blocks to process m dimension
     const int grid_size_y = // TODO; // hint: spawn enough blocks to process n dimension
-    dim3 gridDim() // TODO;
+    dim3 gridDim(//TODO);
 
     matmul_v1<<<gridDim, blockDim>>>(
         A.data_ptr<float>(),
@@ -46,53 +46,17 @@ torch::Tensor launch_matmul_v1(torch::Tensor A, torch::Tensor B, torch::Tensor C
 }
 
 torch::Tensor launch_matmul_v2(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    const int block_size = // TODO;
-    dim3 blockDim() // TODO;
-
-    const int grid_size_x = // TODO;
-    const int grid_size_y = // TODO;
-    dim3 gridDim() // TODO;
-
-    matmul_v2<<<gridDim, blockDim>>>(
-        A.data_ptr<float>(),
-        B.data_ptr<float>(),
-        C.data_ptr<float>(),
-        m, n, d);
-    return C;
+    /* TODO IMPLEMENT THIS KERNEL WRAPPER */
 }
 
 torch::Tensor launch_matmul_v3(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    const int block_size = // TODO;
-    dim3 blockDim() // TODO;
+    /* TODO IMPLEMENT THIS KERNEL WRAPPER */
 
-    const int grid_size_x = // TODO;
-    const int grid_size_y = // TODO;
-    dim3 gridDim() // TODO;
-
-    matmul_v3<<<gridDim, blockDim>>>(
-        A.data_ptr<float>(),
-        B.data_ptr<float>(),
-        C.data_ptr<float>(),
-        m, n, d
-    );
-    return C;
 }
 
 torch::Tensor launch_matmul_v4(torch::Tensor A, torch::Tensor B, torch::Tensor C, const int m, const int n, const int d){
-    const int block_size = // TODO;
-    dim3 blockDim() // TODO;
+    /* TODO IMPLEMENT THIS KERNEL WRAPPER */
 
-    const int grid_size_x = // TODO;
-    const int grid_size_y = // TODO;
-    dim3 gridDim() // TODO;
-
-    matmul_v4<<<gridDim, blockDim>>>(
-        A.data_ptr<float>(),
-        B.data_ptr<float>(),
-        C.data_ptr<float>(),
-        m, n, d
-    );
-    return C;
 }
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
