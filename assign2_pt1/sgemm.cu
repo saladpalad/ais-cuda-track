@@ -9,22 +9,22 @@
 // Though we are dealing square matrices
 
 __global__ void matmul_v1(float* A, float* B, float* C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL */
+    /* TODO IMPLEMENT THIS KERNEL (NAIVE) */
 
 }
 
 __global__ void matmul_v2(float* A, float* B, float* C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL */
+    /* TODO IMPLEMENT THIS KERNEL (COALESCING) */
 
 }
 
 __global__ void matmul_v3(float* A, float* B, float* C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL */
+    /* TODO IMPLEMENT THIS KERNEL (REGISTER REUSE) */
 
 }
 
 __global__ void matmul_v4(float* A, float* B, float* C, const int m, const int n, const int d){
-    /* TODO IMPLEMENT THIS KERNEL */
+    /* TODO IMPLEMENT THIS KERNEL (SHARED MEMORY) */
 
 }
 
