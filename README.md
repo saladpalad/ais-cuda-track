@@ -9,7 +9,7 @@
 [PMPP Book Access](https://dokumen.pub/qdownload/programming-massively-parallel-processors-a-hands-on-approach-4nbsped-9780323912310.html)\
 [NVIDIA GPU Glossary](https://modal.com/gpu-glossary/device-hardware)
 
-# Week 2: Learning to optimize your kernels! 
+# Week 2 and 3: Learning to optimize your kernels! 
 ![matmul](https://github.com/user-attachments/assets/494a758f-cc52-4dc3-8454-63181d3786c8)
 
 #### From the image, how many FLOPS (floating point operations) are in matrix multiplication?
