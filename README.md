@@ -22,7 +22,7 @@
 ### Further references to use:
 [NCU Documentation](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
 
-# Week 4: Learning to optimize your kernels with Tensor Cores!
+# Week 4: Learning to optimize with Tensor Cores!
 ![Tensor-Core-Matrix](https://github.com/user-attachments/assets/d6209037-dd9b-4285-b71e-d3df5184ea2a)
 #### How much faster are Tensor Core operations compared to F32 CUDA Cores?
 
