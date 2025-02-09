@@ -21,3 +21,17 @@
 
 ### Further references to use:
 [NCU Documentation](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
+
+# Week 4: Learning to optimize your kernels with Tensor Cores!
+![hgemm]("https://github.com/user-attachments/assets/d35937fe-de75-4abb-8b62-5c8a468c80a1")
+#### How much faster are Tensor Core operations compared to F32 CUDA Cores?
+
+
+### Recommended Readings:
+[A sequel to Simon's Blog in HGEMM](https://alexarmbr.github.io/2024/08/10/How-To-Write-A-Fast-Matrix-Multiplication-From-Scratch-With-Tensor-Cores.html)\
+[Bruce's Blog on HGEMM](https://bruce-lee-ly.medium.com/nvidia-tensor-core-cuda-hgemm-advanced-optimization-5a17eb77dd85)\
+[NVIDIA's Presentation](https://developer.download.nvidia.com/video/gputechconf/gtc/2020/presentations/s21745-developing-cuda-kernels-to-push-tensor-cores-to-the-absolute-limit-on-nvidia-a100.pdf)\
+
+### Further references to use:
+[Primer on Inline PTX Assembly](https://docs.nvidia.com/cuda/pdf/Inline_PTX_Assembly.pdf)\
+[CUTLASS GEMM Documentation](https://github.com/NVIDIA/cutlass/blob/main/media/docs/implicit_gemm_convolution.md#shared-memory-layouts)
