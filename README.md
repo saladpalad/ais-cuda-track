@@ -10,7 +10,8 @@
 [NVIDIA GPU Glossary](https://modal.com/gpu-glossary/device-hardware)
 
 # Week 2 and 3: Learning to optimize your kernels! 
-![matmul](https://github.com/user-attachments/assets/494a758f-cc52-4dc3-8454-63181d3786c8)
+![gemm2a](https://github.com/user-attachments/assets/470aa080-0fdc-40a8-8389-f69ea435da42)
+
 
 #### From the image, how many FLOPS (floating point operations) are in matrix multiplication?
 
