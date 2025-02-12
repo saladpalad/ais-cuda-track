@@ -37,4 +37,4 @@
 ### Further references to use:
 [Primer on Inline PTX Assembly](https://docs.nvidia.com/cuda/pdf/Inline_PTX_Assembly.pdf)\
 [CUTLASS GEMM Documentation](https://github.com/NVIDIA/cutlass/blob/main/media/docs/implicit_gemm_convolution.md#shared-memory-layouts)\
-[NVIDIA PTX ISA Documentation](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html?highlight=mma#)
+[NVIDIA PTX ISA Documentation (Chapter 9.7 is most relevant)](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html?highlight=mma#)
