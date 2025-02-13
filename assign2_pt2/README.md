@@ -12,4 +12,4 @@ What bitwise operator is used to implement the swizzling pattern in shared memor
 
 ### Kernel 3: CP Async
 Look at the Memory Workload Analysis section and Memory Chart. \
-Compare the Global Memory Instructions, and Memory Throughput between Kernel 2 and Kernel 3. What differences do you observe when using cp_async? Explain how the asynchronous memory operations contribute to these changes.
+Compare the `Global Memory Instructions`, and `Memory Throughput` between Kernel 2 and Kernel 3. What differences do you observe when using cp_async? Explain how the asynchronous memory operations contribute to these changes.
