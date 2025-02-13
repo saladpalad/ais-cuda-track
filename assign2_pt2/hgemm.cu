@@ -88,8 +88,8 @@ __global__ void matmul_v2(const half *A, const half *B, float *C, int M, int N, 
   int mWarp = 16 * (warpID / 4);
   int nWarp = 8 * (warpID % 4);
 
-  unsigned aReg[4]; // holds 8 fp16 values
-  unsigned bReg[2]; // holds 4 fp16 values
+  unsigned aReg[4]; // holds 8 fp16 values per thread
+  unsigned bReg[2]; // holds 4 fp16 values per thread
   float dReg[2][2][4] = {0.};
 
   int storeRow = warpID * 4 + laneID / 8;
