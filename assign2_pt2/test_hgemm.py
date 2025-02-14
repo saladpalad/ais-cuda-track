@@ -2,6 +2,8 @@ import torch
 from torch.utils.cpp_extension import load
 #import hgemm_ref as mm
 
+os.environ['TORCH_CUDA_ARCH_LIST'] = '8.6'  # Ampere
+
 print("\nCompiling tensor core matmul module...\n")
 ms = load(name="hgemm", sources=["hgemm.cu"], extra_cuda_cflags=["-arch=sm_86", "-O3"])
 
