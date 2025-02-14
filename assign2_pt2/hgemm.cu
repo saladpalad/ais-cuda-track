@@ -93,6 +93,7 @@ __global__ void matmul_v2(const half *A, const half *B, float *C, int M, int N, 
   float dReg[2][2][4] = {0.};
 
   int storeRow = warpID * 4 + laneID / 8;
+  // HINT: The code can be found in one of the readings/references ;)
   int storeCol = // TODO Modify this line to help avoid bank conflicts from loading from shared memory to registers
 
   int loadRowA = (laneID % 16) / 2;
@@ -157,6 +158,7 @@ __global__ void matmul_v3(const half *A, const half *B, float *C, int M, int N, 
   float dReg[2][2][4] = {0.};
 
   int storeRow = warpID * 4 + laneID / 8;
+  // HINT: The code can be found in one of the readings/references ;)
   int storeCol = // TODO Modify this line to help avoid bank conflicts from loading from shared memory to reigsters
 
   int loadRowA = (laneID % 16) / 2;
