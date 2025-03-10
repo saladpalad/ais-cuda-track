@@ -15,7 +15,7 @@ from torch.profiler import profile, record_function, ProfilerActivity
 NUM_THREADS=8
 torch.set_num_threads(NUM_THREADS)
 
-print("\nCompiling code into a PyTorch module...\n\n")
+print("\nCompiling Flash Attention Kernel into a PyTorch module...\n\n")
 flash_attention = load(name="custom_module", sources=["attention.cu"],  extra_cflags=["-O3"])
 correctness_error_message = "\n-------------------------------------------\n YOUR ATTENTION PRODUCED INCORRECT RESULTS"
 
