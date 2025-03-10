@@ -1,4 +1,5 @@
 # Assignment 2 Part 2: Implementing HGEMM Kernels
+![Image 3-9-25 at 7 18 PM](https://github.com/user-attachments/assets/3f073ecf-fb7f-44e4-a0cc-18900870d03d)
 Building upon the first part of the assignment, we now turn our attention to matrix multiplication in half-precision. Instead of the input matrices being FP32 (`A*B`), we now perform computation on FP16 matrices (`A_half*B_half`). To take advantage of the smaller size of FP16 values, we utilize tensor cores in the SM, which are designed to take advantage of the faster FP16 computation. There are 2 CUDA APIs to program the tensor cores in a RTX 3090, `wmma` and `mma`. In this assignment, we will be utilizing the `mma` PTX instructions. 
 
 ## To get started
