@@ -28,6 +28,6 @@ The fix is quite simple, and only a few lines of code.
 
 ## For the ambitious:
 The current flash attention code is quite slow (It can only outperform pytorch w/ small parameter values)\
-With all the topics we've covered so far, can you think of a ways to improve the current implementation? \
+With all the topics we've covered so far, can you think of some ways to improve the current implementation? \
 Maybe making the matmuls run on tensor cores? Applying reduction for the running sum `lij` and for finding the maximum `mij`?  \
 Try to improve the kernel even more! :)
