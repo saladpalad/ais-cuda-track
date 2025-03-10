@@ -1,5 +1,5 @@
 # Assignment 3: CUDA Softmax: The Need for Speed
-![artworks-000296633391-rpazic-t1080x1080](https://github.com/user-attachments/assets/44c161d3-9b11-4ea8-9c65-ccc1202d165c)
+<img src="https://github.com/user-attachments/assets/44c161d3-9b11-4ea8-9c65-ccc1202d165c" width="300" alt="artworks-000296633391-rpazic">
 You're in a lab working on AGI but the softmax layer is a bottleneck to your lab's frontier LLM models. After profiling the training pipeline, the lab has identified PyTorch's native softmax function as the primary performance limitation. 
 The previous CUDA implementation developed by our team failed to deliver meaningful speedups, so you've been assigned to create a more optimized version. 
 The goal is to develop a CUDA-based softmax algorithm that can run on your lab's cluster of NVIDIA GPUs, while also significantly increasing GFLOP performance. Use techniques such as parallel reduction, warp-level primitives and vectorization to improve throughput.
