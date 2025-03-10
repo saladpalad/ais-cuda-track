@@ -22,9 +22,9 @@ You can also run the inference on larger sequence lengths:
 Modify the kernel in `attention.cu` to make the kernel work for various sequence lengths
 
 ## Some hints
-Understand what the current kernel is doing, and how it implements the flash attention algorithm\
-Play around with various seq. length values in `gpt149.py (line 178)` and identify which values the kernel works for (you'll notice a trend for the values)\
-The fix is quite simple, and only a few lines of code.
+- Understand what the current kernel is doing, and how it implements the flash attention algorithm\
+- Play around with various seq. length values in `gpt149.py (line 178)` and identify which values the kernel works for (you'll notice a trend for the values)\
+- The fix is quite simple, and only a few lines of code.
 
 ## For the ambitious:
 The current flash attention code is quite slow (if you look at the inference block times the naive pytorch attention implementation outperforms the kernel significantly)\
