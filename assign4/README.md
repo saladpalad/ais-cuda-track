@@ -1,4 +1,4 @@
-# Assignment 4: Running Shakespearean GPT2 inference w/ Flash Attention
+# Assignment 4: Running GPT2 inference w/ Flash Attention
 ![images](https://github.com/user-attachments/assets/90ed33d5-968b-4785-8944-3737d5d95f93)
 <img src="https://github.com/user-attachments/assets/5ea688cb-7203-4b1e-82d4-f5af42f54ec5" width="630" alt="flashattention">
 
