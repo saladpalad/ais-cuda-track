@@ -1,5 +1,7 @@
 # Assignment 4: Running GPT2 inference w/ Flash Attention
-![images](https://github.com/user-attachments/assets/90ed33d5-968b-4785-8944-3737d5d95f93)
+<!-- ![images](https://github.com/user-attachments/assets/90ed33d5-968b-4785-8944-3737d5d95f93) -->
+![images](https://github.com/user-attachments/assets/13f48b73-25e4-466d-a366-96fb62f1531e)
+
 <img src="https://github.com/user-attachments/assets/5ea688cb-7203-4b1e-82d4-f5af42f54ec5" width="630" alt="flashattention">
 
 Following your successful work on the softmax kernel, your lab has given you a new project to tackle: implementing flash attention. 
