@@ -1,4 +1,3 @@
-![artworks-000296633391-rpazic-t1080x1080](https://github.com/user-attachments/assets/0d862abe-c061-4360-a230-b3981bc36755)
 # Assignment 3: CUDA Softmax: The Need for Speed
 You're in a lab working on AGI but your softmax is a bottleneck to your lab's frontier LLM models. After profiling the training pipeline, the lab has identified PyTorch's native softmax function as the primary performance limitation. 
 The previous CUDA implementation developed by our team failed to deliver meaningful speedups, so you've been assigned to create a more optimized version. 
