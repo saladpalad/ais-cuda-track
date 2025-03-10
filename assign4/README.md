@@ -10,7 +10,7 @@ Your goal is to improve upon the work and develop a robust flash attention algor
 Run `python3 gpt149.py part4` to pass the test case for fixed sequence length (N=32)\
 Run `python3 gpt149.py part4 --inference -m shakes128` to run GPT2 inference with flash attention on the 128M parameter model.
 
-You can also run inference on sequence lengths:
+You can also run the inference on larger sequence lengths:
 - `python3 gpt149.py part4  --inference -m shakes256` for the seq_len=256 model
 - `python3 gpt149.py part4 --inference -m shakes1024` for the seq_len=1024 model
 - `python3 gpt149.py part4  --inference -m shakes2048` for the seq_len=2048 model
