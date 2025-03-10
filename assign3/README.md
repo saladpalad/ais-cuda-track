@@ -1,5 +1,7 @@
 # Assignment 3: CUDA Softmax: You're too slow!
-<img src="https://github.com/user-attachments/assets/44c161d3-9b11-4ea8-9c65-ccc1202d165c" width="250" alt="artworks-000296633391-rpazic">\
+<img src="https://github.com/user-attachments/assets/44c161d3-9b11-4ea8-9c65-ccc1202d165c" width="250" alt="artworks-000296633391-rpazic">
+![Image 3-9-25 at 8 32 PM](https://github.com/user-attachments/assets/328881e4-8292-41a6-b9b1-0c33103cf16a)
+
 You're in a lab working towards AGI but unfortunately a competing open-source lab has been getting all the praise for its frontier LLMs. After profiling the training pipeline, the lab has identified PyTorch's native softmax function as the primary performance limitation. The previous CUDA implementation developed by your team failed to deliver meaningful speedups, so you've been assigned to create a more optimized version. The goal is to develop a CUDA-based softmax algorithm that can beat out the competitor's GFLOP performance and put your lab back at the forefront of AGI research. Use techniques such as **parallel reduction**, **warp-level primitives** and **vectorization** to improve throughput.
 
 ## To get started:
