@@ -7,6 +7,7 @@ Fortunately, your co-worker already implemented one but it doesn't work for runn
 Your goal is to improve upon the work and develop a robust flash attention algorithm to run GPT2 inference that has been trained on Shakespearean text.
 
 ## To get started:
+Install the necessary packages in your environment \ 
 Run `python3 gpt149.py part4` to pass the test case for fixed sequence length (N=32)\
 Run `python3 gpt149.py part4 --inference -m shakes128` to run GPT2 inference with flash attention on the 128M parameter model.
 
