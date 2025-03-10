@@ -2,6 +2,7 @@
 #include <cuda.h>
 #include <cuda_runtime.h>
 
+/* FIX ME PLS :( */
 __global__ void forward_kernel(const float* Q, const float* K, const float* V, float* O, float* l, float* m,
                     const int B, const int H, const int N, const int d,
                     const int Tc, const int Tr, const int Bc, const int Br, const float innerprod_scale) {
