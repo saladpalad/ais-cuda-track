@@ -4,7 +4,7 @@
 
 Following your successful work on the softmax kernel, your lab has given you a new project to tackle: implementing flash attention. 
 Fortunately, your co-worker already implemented one but it doesn't work for running inference due to the changing sequence length. 
-Your goal is to improve upon the work and develop a robust flash attention algorithm to run GPT2 inference that has been trained on Shakespearean text.
+Your goal is to improve the current kernel and develop a robust flash attention algorithm to run GPT2 inference that has been trained on Shakespearean text.
 
 ## To get started:
 - Install the necessary packages in your environment
