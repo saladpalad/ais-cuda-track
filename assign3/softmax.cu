@@ -1,6 +1,7 @@
 #include <cuda.h>
 #include <torch/extension.h>
 
+/* OPTIMIZE ME PLS :( */
 template <typename scalar_t>
 __global__ void naive_softmax(const scalar_t* x, scalar_t* y, const int bz, const int num_classes){
   //input: (b,c)
