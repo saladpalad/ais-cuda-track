@@ -10,5 +10,6 @@ You're in a lab working towards AGI but unfortunately a competing open-source la
 - Optimize the naive kernel in `softmax.cu`
 - Use profiling tools like `NSight Compute` to identify any bottlenecks
 - Run `python3 bench.py` to benchmark the softmax kernel 
-
-Good luck!
+- Try to beat the reference kernel's GFLOP performance
+ 
+Good luck! You'll need it.
