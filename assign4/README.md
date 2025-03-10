@@ -3,7 +3,7 @@
 <img src="https://github.com/user-attachments/assets/5ea688cb-7203-4b1e-82d4-f5af42f54ec5" width="630" alt="flashattention">
 
 Following your successful work on the softmax kernel, your lab has given you a new project to tackle: implementing flash attention. 
-Fortunately, your co-worker already implemented one but it doesn't work for running inference due to the changing sequence length. 
+Fortunately, your lab has already implemented one but it doesn't work for running inference due to the changing sequence length. 
 Your goal is to improve the current kernel and develop a robust flash attention algorithm to run GPT2 inference that has been trained on Shakespearean text.
 
 ## To get started:
