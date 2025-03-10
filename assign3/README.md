@@ -6,6 +6,6 @@ The goal is to develop a CUDA-based softmax algorithm that can run on your lab's
 ## To get started:
 Optimize the naive kernel in `softmax.cu`,  \
 Use profiling tools like NSight Compute to identify any bottlenecks \
-Run `python3 bench.py` to benchmark the softmax kernel \
+Run `python3 bench.py` to benchmark the softmax kernel 
 
 Good luck!
