@@ -4,11 +4,13 @@ In this assignment you will learn how to improve a naive matmul kernel all the w
 
 
 ## To get started:
-Implement your kernels and your kernel wrappers in `sgemm.cu`
+- Install the necessary packages in your environment
 
-Run `python3 test_sgemm.py arg` after implementing your kernel
+- Implement your kernels and your kernel wrappers in `sgemm.cu`
 
-`usage: test_sgemm.py [-h] (-v1 | -v2 | -v3 | -v4 | -all)`
+- Run `python3 test_sgemm.py arg` after implementing your kernel
+
+- `usage: test_sgemm.py [-h] (-v1 | -v2 | -v3 | -v4 | -all)`
 
 
 
