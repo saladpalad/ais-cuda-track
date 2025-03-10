@@ -1,5 +1,5 @@
 # Assignment 3: CUDA Softmax: You're too slow!
-<img src="https://github.com/user-attachments/assets/44c161d3-9b11-4ea8-9c65-ccc1202d165c" width="250" alt="artworks-000296633391-rpazic">
+<!--<img src="https://github.com/user-attachments/assets/44c161d3-9b11-4ea8-9c65-ccc1202d165c" width="250" alt="artworks-000296633391-rpazic">-->
 
 <img src="https://github.com/user-attachments/assets/67bd7a9a-d9ee-4447-a17e-1ac8aa59e1ad" width="700px" alt="System diagram">
 
