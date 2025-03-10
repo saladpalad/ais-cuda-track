@@ -27,7 +27,7 @@ Play around with various seq. length values in `gpt149.py (line 178)` and identi
 The fix is quite simple, and only a few lines of code.
 
 ## For the ambitious:
-The current flash attention code is quite slow (It can only outperform pytorch w/ small parameter values)\
+The current flash attention code is quite slow (if you look at the inference block times the naive pytorch attention implementation outperforms the kernel significantly)\
 With all the topics we've covered so far, can you think of some ways to improve the current implementation? \
 Maybe making the matmuls run on tensor cores? Applying reduction for the running sum `lij` and for finding the maximum `mij`?  \
 Try to improve the kernel even more! :)
