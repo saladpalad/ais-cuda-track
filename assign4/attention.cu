@@ -85,16 +85,14 @@ __global__ void forward_kernel(const float* Q, const float* K, const float* V, f
                     }
                 }
 
-                if(i*Br*d + tx*d < N*d){
-                    if(ty == 0){ // make sure ty don't override each other
-                    O[bnhNd + hNd + i*Br*d + (tx*d + k)] = 
-                        (1.0f / li_new) * (li_old * expf(mi_old - mi_new) * O[bnhNd + hNd + i*Br*d + (tx*d + k)] + 
-                                        expf(mij - mi_new) * PijVj);
-                    }
-                    // Write to l, m
-                    l[b*nh*N + h*N + i*Br + tx] = li_new;
-                    m[b*nh*N + h*N + i*Br + tx] = mi_new;
+                if(ty == 0){ // make sure ty don't override each other
+                O[bnhNd + hNd + i*Br*d + (tx*d + k)] = 
+                    (1.0f / li_new) * (li_old * expf(mi_old - mi_new) * O[bnhNd + hNd + i*Br*d + (tx*d + k)] + 
+                                    expf(mij - mi_new) * PijVj);
                 }
+                // Write to l, m
+                l[b*nh*N + h*N + i*Br + tx] = li_new;
+                m[b*nh*N + h*N + i*Br + tx] = mi_new;
             }
         }
         __syncthreads();
