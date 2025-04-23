@@ -17,7 +17,8 @@
 ### Recommended Readings: 
 [Aalto University's Course on GPU Programming](https://ppc.cs.aalto.fi/ch4/)\
 [Simon's Blog on SGEMM (Kernels 1-5 are the most relevant for the assignment)](https://siboehm.com/articles/22/CUDA-MMM)\
-[How to use NCU profiler](https://www.youtube.com/watch?v=04dJ-aePYpE)
+[How to use NCU profiler](https://www.youtube.com/watch?v=04dJ-aePYpE)\
+[Roofline Models](https://www.telesens.co/2018/07/26/understanding-roofline-charts/)
 
 ### Further references to use:
 [NCU Documentation](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
