@@ -9,7 +9,7 @@
 [PMPP Book Access](https://dokumen.pub/qdownload/programming-massively-parallel-processors-a-hands-on-approach-4nbsped-9780323912310.html)\
 [NVIDIA GPU Glossary](https://modal.com/gpu-glossary/device-hardware)
 
-# Week 2 and 3: Learning to optimize your kernels! 
+# Week 2: Learning to optimize your kernels! 
 ![gemm1](https://github.com/user-attachments/assets/d0349f57-d436-459e-920f-5b445a3771fa)
 
 #### From the image, how many FLOPS (floating point operations) are in matrix multiplication?
@@ -23,7 +23,7 @@
 ### Further references to use:
 [NCU Documentation](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
 
-# Week 4 and 5: Learning to optimize with Tensor Cores!
+# Week 3 and 4: Learning to optimize with Tensor Cores!
 ![Tensor-Core-Matrix](https://github.com/user-attachments/assets/d6209037-dd9b-4285-b71e-d3df5184ea2a)
 #### How much faster are Tensor Core operations compared to F32 CUDA Cores?
 
