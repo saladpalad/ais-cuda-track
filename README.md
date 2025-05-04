@@ -23,7 +23,7 @@
 ### Further references to use:
 [NCU Documentation](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
 
-# Week 3 and 4: Learning to optimize with Tensor Cores!
+# Week 3: Learning to optimize with Tensor Cores!
 ![Tensor-Core-Matrix](https://github.com/user-attachments/assets/d6209037-dd9b-4285-b71e-d3df5184ea2a)
 #### How much faster are Tensor Core operations compared to F32 CUDA Cores?
 
@@ -38,6 +38,9 @@
 [Primer on Inline PTX Assembly](https://docs.nvidia.com/cuda/pdf/Inline_PTX_Assembly.pdf)\
 [CUTLASS GEMM Documentation](https://github.com/NVIDIA/cutlass/blob/main/media/docs/cpp/implicit_gemm_convolution.md)\
 [NVIDIA PTX ISA Documentation (Chapter 9.7 is most relevant)](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html?highlight=mma#)
+
+# Week 4: More on Tensor Cores (Hopper and Blackwell)!
+[TMA Introduction](https://veitner.bearblog.dev/tma-introduction/)
 
 # Week 6: Exploring other optimization parallel techniques!
 ![1_l1uoTZpQUW8YaSjFpcMNlw](https://github.com/user-attachments/assets/3d2997f7-d149-4668-a48c-39b3fc516f1a)
